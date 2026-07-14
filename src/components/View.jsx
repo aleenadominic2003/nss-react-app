@@ -50,7 +50,20 @@ const View = () => {
     <thead className="table-dark">
       <tr>
         
-            
+            <th>Volunteer ID</th>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Date of Birth</th>
+            <th>Gender</th>
+            <th>Blood Group</th>
+            <th>Department</th>
+            <th>Year of Study</th>
+            <th>Camp Name</th>
+            <th>Hours Completed</th>
+            <th>Address</th>
+            <th>Unit Number</th>
+            <th>Action</th>
             
 
         
