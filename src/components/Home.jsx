@@ -4,16 +4,20 @@ import NavigationBar from './NavigationBar'
 const Home = () => {
   return (
     <>
-      <NavigationBar />
+    <NavigationBar />
 
-      <div className="container mt-5">
-        <h1 className="text-center">NSS VOLUNTEER MANAGEMENT SYSTEM</h1>
+    
+      <h1 className="text-center">NSS ENTRY APP</h1>
 
-        <h2 className="text-center mt-4">
-          Welcome to Our NSS Volunteer Management System
-        </h2>
+      <h2 className="text-center mt-4">
+        Welcome to Our NSS  App
+      </h2>
 
-        <p className="mt-3 text-center">
+      <p>
+       Nss App Description
+
+
+        <p>
           NSS Volunteer Management System is a web-based application developed to
           simplify the management of National Service Scheme (NSS) volunteers and
           their activities. The system allows administrators to register
@@ -23,7 +27,9 @@ const Home = () => {
           interface to add, view, update, and delete volunteer records, making
           volunteer management efficient, organized, and easily accessible.
         </p>
-      </div>
+
+      </p>
+    
     </>
   )
 }
